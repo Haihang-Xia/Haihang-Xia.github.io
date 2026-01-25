@@ -170,4 +170,5 @@
 .pub-excerpt__link:hover .pub-excerpt__text,
 .pub-excerpt__link:focus .pub-excerpt__text {
   text-decoration: underline;
+  text-decoration-color: var(--text-color);
 }
