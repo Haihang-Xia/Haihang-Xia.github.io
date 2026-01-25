@@ -54,7 +54,9 @@
 
     {% if post.excerpt %}
   <p class="pub-excerpt" itemprop="description">
-    <a class="pub-excerpt__link pub-excerpt-clamp" href="{{ base_path }}{{ post.url }}" rel="permalink">
+    <a class="pub-excerpt__link pub-excerpt-clamp"
+       href="{{ base_path }}{{ post.url }}"
+       rel="permalink">
       {{ post.excerpt | markdownify | strip_html | strip_newlines }}
     </a>
   </p>
