@@ -15,7 +15,7 @@ var addressPoints = [
     -122.272863
   ],
   [
-    "Talk 1 on Relevant Topic in Your Field<br />Raffles Dubai, Sheikh Rashid Road, Wafi, Dubai, UAE.; Dubai, UAE",
+    "2025 38th IEEE International System-on-Chip Conference<br />Raffles Dubai, Sheikh Rashid Road, Wafi; Dubai, UAE",
     25.0742823,
     55.1885387
   ]
