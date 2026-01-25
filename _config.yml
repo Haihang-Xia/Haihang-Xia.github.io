@@ -58,8 +58,8 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "" # Replace this with you Bluesky username
-  facebook         : Haihang Xia# Username
+  bluesky          : # Replace this with you Bluesky username
+  facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
@@ -67,7 +67,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : Haihang Xia # Username
+  linkedin         : haihang-xia# Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
