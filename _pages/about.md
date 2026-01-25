@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: "Haihang Xia"
 author_profile: true
 redirect_from: 
   - /about/
@@ -20,8 +20,8 @@ Recent work:
 ======
 - The design and implementation of neuron models and learning algorithm using hardware-efficient
   approximate computing method for SNNs.
-  ([IEEE TCAS1](/publication/txas1_2025)),([IEEE SOCC 2025](/publication/socc2025))
+  "[IEEE TCAS1](/publication/tcas1_2025)","[IEEE SOCC 2025](/publication/socc2025)"
 - Motor rotor fault diagnosis using CNNs and SNNs.
-  ([IEEE SDEMPED 2025](/publication/sdemped2025))
+  "[IEEE SDEMPED 2025](/publication/sdemped2025)"
 
 Related results have been published in IEEE journals and conferences.
