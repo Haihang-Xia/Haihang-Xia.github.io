@@ -47,20 +47,19 @@
    Publications list excerpt clamp
    ================================ */
 
-.pub-excerpt-clamp {
+/* only clamp excerpts on archive (list) pages */
+.archive .pub-excerpt-clamp {
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;   /* ← 这里控制显示几行：2 / 3 / 4 */
+  -webkit-line-clamp: 3;   /* 2/3/4 行随你 */
   overflow: hidden;
 }
 
-/* Make excerpt clickable without link styling */
-.archive__item-excerpt-link {
+.archive .archive__item-excerpt-link {
   color: inherit;
   text-decoration: none;
   display: block;
 }
-
-.archive__item-excerpt-link:hover {
+.archive .archive__item-excerpt-link:hover {
   text-decoration: none;
 }
