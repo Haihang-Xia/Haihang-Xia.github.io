@@ -85,7 +85,7 @@
 .pub-excerpt__link:active,
 .pub-excerpt__link:visited {
   color: inherit;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 /* IMPORTANT:
