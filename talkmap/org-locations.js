@@ -5,11 +5,6 @@ var addressPoints = [
     -1.4702278
   ],
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
-  ],
-  [
     "2025 38th IEEE International System-on-Chip Conference<br />Raffles Dubai, Sheikh Rashid Road, Wafi; Dubai, UAE",
     25.0742823,
     55.1885387
