@@ -42,6 +42,32 @@
     "vendor/font-awesome/brands"
 ;
 
+// .pub-excerpt {
+//   margin: 0.25em 0 0;
+//   font-size: 1em;
+// }
+
+// /* clickable excerpt, styled like normal text */
+// .pub-excerpt__link {
+//   color: inherit;
+//   text-decoration: none;
+// }
+
+// /* IMPORTANT:
+//    line-clamp only works with display: -webkit-box
+//    so this rule MUST win over any other display rules
+// */
+// .pub-excerpt__link.pub-excerpt-clamp {
+//   display: -webkit-box !important;
+//   -webkit-box-orient: vertical;
+//   -webkit-line-clamp: 3;   /* ← 改成 2 / 3 / 4 行都可以 */
+//   overflow: hidden;
+// }
+
+// .pub-excerpt__link:hover {
+//   text-decoration: none;
+// }
+
 .pub-excerpt {
   margin: 0.25em 0 0;
   font-size: 1em;
@@ -53,6 +79,15 @@
   text-decoration: none;
 }
 
+/* kill underline in ALL states */
+.pub-excerpt__link:hover,
+.pub-excerpt__link:focus,
+.pub-excerpt__link:active,
+.pub-excerpt__link:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
 /* IMPORTANT:
    line-clamp only works with display: -webkit-box
    so this rule MUST win over any other display rules
@@ -60,10 +95,6 @@
 .pub-excerpt__link.pub-excerpt-clamp {
   display: -webkit-box !important;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;   /* ← 改成 2 / 3 / 4 行都可以 */
+  -webkit-line-clamp: 3;   /* ← 2 / 3 / 4 行 */
   overflow: hidden;
-}
-
-.pub-excerpt__link:hover {
-  text-decoration: none;
 }
