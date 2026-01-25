@@ -3,7 +3,6 @@ title: "Convolutional & Spiking Neural Networks for the Efficient Classification
 collection: publications
 category: conferences
 permalink: /publication/sdemped2025
-excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
 date: 2025-08-24
 venue: '2025 IEEE Symposium on Diagnostics for Electric Machines, Power Electronics and Drives (SDEMPED)'
 paperurl: 'https://doi.org/10.1109/SDEMPED53223.2025.11154324'
