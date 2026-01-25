@@ -52,7 +52,7 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %} -->
 
-    <!-- {% if post.excerpt %}
+    {% if post.excerpt %}
   <p class="pub-excerpt" itemprop="description">
     <a class="pub-excerpt__link pub-excerpt-clamp"
        href="{{ base_path }}{{ post.url }}"
@@ -60,15 +60,9 @@
       {{ post.excerpt | markdownify | strip_html | strip_newlines }}
     </a>
   </p>
-{% endif %} -->
-
-{% if post.excerpt %}
-  <div class="pub-excerpt-clamp" itemprop="description">
-    <p class="pub-excerpt">
-      {{ post.excerpt | markdownify | strip_html | strip_newlines }}
-    </p>
-  </div>
 {% endif %}
+
+
 
     
     {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
