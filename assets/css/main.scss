@@ -76,7 +76,7 @@
 /* clickable excerpt, styled like normal text */
 .pub-excerpt__link {
   color: inherit;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 /* kill underline in ALL states */
