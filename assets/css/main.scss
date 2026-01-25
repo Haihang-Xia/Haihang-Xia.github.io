@@ -42,24 +42,28 @@
     "vendor/font-awesome/brands"
 ;
 
-
-/* ================================
-   Publications list excerpt clamp
-   ================================ */
-
-/* only clamp excerpts on archive (list) pages */
-.layout--archive .pub-excerpt-clamp {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;   /* 2/3/4 行随你 */
-  overflow: hidden;
+/* Publications list: make excerpt look like text but clickable */
+.pub-excerpt {
+  margin: 0.25em 0 0;   /* 让间距接近原来 */
+  font-size: 1em;       /* 恢复到正文大小（不再是 archive__item-excerpt 的小字号） */
 }
 
-/* Make excerpt clickable without link styling */
-.layout--archive .archive__item-excerpt-link {
+.pub-excerpt__link {
   color: inherit;
   text-decoration: none;
-  display: block;
+  display: block;       /* 让整块都可点 */
+}
+
+.pub-excerpt__link:hover {
+  text-decoration: none;
+}
+
+/* Line clamp */
+.pub-excerpt-clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;   /* 你要几行就改这里 */
+  overflow: hidden;
 }
 
 .layout--archive .archive__item-excerpt-link:hover {
