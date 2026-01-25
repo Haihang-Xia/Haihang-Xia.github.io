@@ -129,7 +129,9 @@
 
 /* keep it clean in ALL states */
 .pub-excerpt__link:hover,
-.pub-excerpt__link:focus,
+.pub-excerpt__link:focus {
+  text-decoration: underline !important;
+}
 .pub-excerpt__link:active,
 .pub-excerpt__link:visited {
   color: inherit !important;
