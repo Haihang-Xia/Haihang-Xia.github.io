@@ -2,22 +2,18 @@
 
 {% include analytics.html %}
 
-
 <script>
   window.addEventListener('load', function () {
-    // 只在首页运行
-    if (location.pathname !== "/" && !location.pathname.endsWith("/index.html")) return;
-
     const loader = document.getElementById('page-loader');
-    if (!loader) return;
+    if (!loader) return; // 子页面没有 loader，直接跳过
 
-    // 第一次进入首页：展示 loader -> load 后淡出
+    // 第一次进入首页：记录并淡出
     if (!sessionStorage.getItem("visited_home")) {
       sessionStorage.setItem("visited_home", "true");
       loader.classList.add('hidden');
       setTimeout(() => loader.remove(), 500);
     } else {
-      // 不是第一次：直接移除（一般不会看到，因为 head 已经 display:none）
+      // 不是第一次：直接移除（一般已被 head 的 no-home-loader 隐藏）
       loader.remove();
     }
   });
