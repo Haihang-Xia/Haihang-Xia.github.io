@@ -2,6 +2,20 @@
 
 <!-- start custom head snippets -->
 
+
+<script>
+  (function () {
+    // 只处理首页
+    if (location.pathname !== "/" && !location.pathname.endsWith("/index.html")) return;
+
+    // 如果本会话已经访问过，立刻给 <html> 打标记，阻止 loader 显示（避免闪一下）
+    if (sessionStorage.getItem("visited_home")) {
+      document.documentElement.classList.add("no-home-loader");
+    }
+  })();
+</script>
+
+
 <!-- Support for Academicons -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
