@@ -5,15 +5,20 @@
 
 <script>
   window.addEventListener('load', function () {
+    // 只在首页运行
+    if (location.pathname !== "/" && !location.pathname.endsWith("/index.html")) return;
+
     const loader = document.getElementById('page-loader');
     if (!loader) return;
 
-    if (sessionStorage.getItem('visited')) {
-      loader.remove();
-    } else {
-      sessionStorage.setItem('visited', 'true');
+    // 第一次进入首页：展示 loader -> load 后淡出
+    if (!sessionStorage.getItem("visited_home")) {
+      sessionStorage.setItem("visited_home", "true");
       loader.classList.add('hidden');
       setTimeout(() => loader.remove(), 500);
+    } else {
+      // 不是第一次：直接移除（一般不会看到，因为 head 已经 display:none）
+      loader.remove();
     }
   });
 </script>
