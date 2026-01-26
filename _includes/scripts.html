@@ -1,3 +1,19 @@
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
 
 {% include analytics.html %}
+
+
+<script>
+  window.addEventListener('load', function () {
+    const loader = document.getElementById('page-loader');
+    if (!loader) return;
+
+    if (sessionStorage.getItem('visited')) {
+      loader.remove();
+    } else {
+      sessionStorage.setItem('visited', 'true');
+      loader.classList.add('hidden');
+      setTimeout(() => loader.remove(), 500);
+    }
+  });
+</script>
