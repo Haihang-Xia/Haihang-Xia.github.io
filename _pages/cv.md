@@ -11,35 +11,37 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Hardware implementation of Spiking Neural Network, University of Sheffield, 2027 (expected)
+* M.S. in Electronics & Electrical Engineering, University of Glasgow, 2023
+* B.S. in Integrated circuit design and integrated system, Hefei University of Technology, 2022
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Spring 2021: Research Intern
+  * Wenzhou Branch of China Telecom Co.Ltd.
+  * Duties includes:
+    * Theoretical study and practice of proprietary cloud operation and maintenance;
+    * Learning and practice of SQL injection;
+    *  Learning and practice of network password security and analysis;
+    * Vulnerability scanning and testing for telecommunication-related networks;
+    * Participated in a series of conferences and seminars to study network security. 
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2020: Hardware Design Intern
+  * Rosenberger Asia Pacific Electronic Co., Ltd.
+  * Duties included:
+    * Participated in the hardware design of 5G vehicle wireless terminal products, completed multiple chip peripheral circuit device selection and calculation;
+    * Selected the circuit devices essential for products, calculated the power consumption, current, voltage and other data of the circuit required by the chip periphery, and calculated the devices’ resistance and inductance and other parameters for device selection.
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* ASIC/FPGA Design & Implementation
+* SoC architecture and AI accelerator design
+* AI model development and application
+* Coding
+  * Verilog
+  * Python
+  * Matlab
+  * C & C++
 
 Publications
 ======
