@@ -5,16 +5,14 @@
 <script>
   window.addEventListener('load', function () {
     const loader = document.getElementById('page-loader');
-    if (!loader) return; // 子页面没有 loader，直接跳过
+    if (!loader) return;
 
-    // 第一次进入首页：记录并淡出
-    if (!sessionStorage.getItem("visited_home")) {
-      sessionStorage.setItem("visited_home", "true");
+    if (sessionStorage.getItem('visited')) {
+      loader.remove();
+    } else {
+      sessionStorage.setItem('visited', 'true');
       loader.classList.add('hidden');
       setTimeout(() => loader.remove(), 500);
-    } else {
-      // 不是第一次：直接移除（一般已被 head 的 no-home-loader 隐藏）
-      loader.remove();
     }
   });
 </script>
