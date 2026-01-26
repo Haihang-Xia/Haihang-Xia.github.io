@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Haihang Xia &vert; Research Homepage"
+title: "Haihang Xia · Research Homepage"
 author_profile: true
 redirect_from: 
   - /about/
