@@ -102,3 +102,8 @@
   color: #666;
   letter-spacing: 0.05em;
 }
+
+/* Do not show the home loader after first visit in the same session */
+html.no-home-loader #page-loader {
+  display: none !important;
+}
