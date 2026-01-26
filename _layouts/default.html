@@ -17,9 +17,11 @@ layout: compress
     {% include masthead.html %}
 
     <!-- loading part -->
-    <div id="page-loader">
+{% if page.url == "/" %}
+  <div id="page-loader">
     <div class="loader-text">Loading…</div>
-    </div>
+  </div>
+{% endif %}
 
     {{ content }}
 
