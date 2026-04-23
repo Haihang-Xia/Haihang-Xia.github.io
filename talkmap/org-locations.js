@@ -1,13 +1,18 @@
 var addressPoints = [
   [
+    "UK Design Forum 2025<br />Pendulum Hotel; Manchester, UK",
+    53.4794892,
+    -2.2451148
+  ],
+  [
     "The 36th British Machine Vision Conference<br />Cutlers\u2019 Hall; Sheffield, UK",
     53.3806626,
     -1.4702278
   ],
   [
-    "UK Design Forum 2025<br />Pendulum Hotel; Manchester, UK",
-    53.4794892,
-    -2.2451148
+    "NEXT-AI 2026: NEUROMORPHIX TECHNOLOGIES FOR FUTURE AI<br />Holywell Park Conference Centre, Loughborough University; Loughborough, UK",
+    52.7723859,
+    -1.2077985
   ],
   [
     "2025 38th IEEE International System-on-Chip Conference<br />Raffles Dubai, Sheikh Rashid Road, Wafi; Dubai, UAE",
