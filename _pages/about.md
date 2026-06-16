@@ -18,6 +18,8 @@ Research interests:
 
 Recent work:
 ======
+- New journal paper about motor rotor fault diagnosis using CNNs and SNNs.
+  "[IEEE TIA](/publication/tia_2026)"
 - The design and implementation of neuron models and learning algorithm using hardware-efficient
   approximate computing method for SNNs.
   "[IEEE TCAS1](/publication/tcas1_2025)","[IEEE SOCC 2025](/publication/socc2025)"
