@@ -23,7 +23,7 @@ repository               : "Haihang-Xia/Haihang-Xia.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "xhh.jpeg"
+  avatar           : "xhh_square.jpg"
   name             : "Haihang Xia"
   pronouns         : # example: "she/her"  
   bio              : "PhD candidate at the University of Sheffield"
